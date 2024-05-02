@@ -8,7 +8,7 @@ const projects = [
     longDescription:
       "Bridging the funding gap between innovation and venture capital, by creating utility, value and demand for Hypercerts",
     avatarUrl: "/img/hs-logo-small.jpg",
-    bannerUrl: "/img/hs-banner.jpg",
+    bannerUrl: "/img/unicorn-dream.jpg",
     slug: "hyper-staker",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     id: "3",
-    recipient: "0x123",
+    recipient: "",
     name: "WERK",
     shortDescription:
       "Gain perspective on how to allocate your most valuable asset: your attention.",

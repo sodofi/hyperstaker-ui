@@ -1,4 +1,34 @@
+<div align="center">
+<h1>
+<img src="./docs/images/unicorn.jpg" alt="Hyperstaker: unleash your project" />
+</h1>
+</div>
+
+# 🦄 Hyperstaker
+
+[Overview](#overview) •
+[Features](#features) •
+[Contribute](#contribute) •
+
+## Overview <a name="overview"></a>
+
+Hyperstaker super charges early stage software projects by attaching early contributors to future any project success.
+
+## Features <a name="features"></a>
+
+- Enables donations to projects
+- Staking on Hypercerts (coming soon)
+
+## Contribute <a name="contribute"></a>
+
+Contact us on Twitter or Discord to talk
+
+
+<br>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+<br>
 
 ## Getting Started
 
