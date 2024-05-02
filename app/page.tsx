@@ -17,13 +17,35 @@ export const metadata: Metadata = {
 const Home = () => {
   return (
     <>
-      <Hero />
-      <SectionTitle pretitle="How does it work?" title=" How does it work?">
-        Predict which project will be the next big thing, and secure a vested
-        interest in it.
-      </SectionTitle>
-      <Benefits data={benefitOne} />
-      {/* <Benefits imgPos="right" data={benefitTwo} />
+      <div style={{ background: "#341E6A" }}>
+        <Hero />
+        <SectionTitle pretitle="How does it work?" title=" How does it work?">
+          <ul>
+            <li>
+              Projects choose whether to do a &apos;fixed amount&apos; or a
+              &apos;fixed duration&apos; raise.
+            </li>
+            <li>
+              The project mints a Hypercert and deposits it into the vault
+            </li>
+            <li>
+              Funders donate to projects, and receive a fraction of the
+              hypercert relative to their donation.
+            </li>
+            <li>
+              Non-financial contributors realize the project for Hypercerts
+            </li>
+            <li>
+              Hypercerts can be sold, staked, or bought by a bonding curve
+            </li>
+            <li>
+              When a retro payout is made - stakers are trustlessly paid out
+              relative to their staked amout of Hypercerts
+            </li>
+          </ul>
+        </SectionTitle>
+        <Benefits data={benefitOne} />
+        {/* <Benefits imgPos="right" data={benefitTwo} />
       <SectionTitle
         pretitle="Watch a video"
         title="Learn how to fullfil your needs"
@@ -33,14 +55,14 @@ const Home = () => {
         don&apos;t forget to add one. Just like this.
       </SectionTitle>
       {/* <Video /> */}
-      {/* <SectionTitle
+        {/* <SectionTitle
         pretitle="Testimonials"
         title="Here's what our customers said"
       >
         Testimonails is a great way to increase the brand trust and awareness.
         Use this section to highlight your popular customers.
       </SectionTitle> */}
-      {/* <Testimonials />
+        {/* <Testimonials />
       <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
@@ -48,8 +70,9 @@ const Home = () => {
       <Faq />
       <Cta />
        */}
-      <Footer />
-      {/* <PopupWidget /> */}
+        <Footer />
+        {/* <PopupWidget /> */}
+      </div>
     </>
   );
 };
